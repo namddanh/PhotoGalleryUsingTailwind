@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 const ChangeBgColor = ({ getColor }) => {
 	const [activeColor, setActiveColor] = useState('');
@@ -25,4 +25,4 @@ const ChangeBgColor = ({ getColor }) => {
 	)
 }
 
-export default ChangeBgColor
+export default ChangeBgColor;
