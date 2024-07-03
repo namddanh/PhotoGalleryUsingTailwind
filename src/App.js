@@ -13,7 +13,7 @@ function App() {
       .then(data => {
         setImages(data.hits);
         setIsLoading(false);
-      })
+      }) 
       .catch(err => console.log(err));
   }, [term]);
 
